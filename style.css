@@ -1,0 +1,109 @@
+
+*{
+   padding: 0% auto;
+   margin: 0% auto;
+}
+.section111{
+   display: flex;
+   padding: 20px 70px;
+background-color: rgb(73, 255, 255);
+   justify-content: space-between;
+}
+.div{
+   color: rgb(255, 0, 0);
+   font-size: 30px;
+}
+      .nav{
+display: flex;
+justify-content: end;
+list-style: none;
+
+}
+.nav li{
+   display: flex;
+margin-left: 60px;
+padding-top: 7px;
+}
+.toure{
+   background-color: antiquewhite;
+  
+}
+
+.tourguides{
+   text-align: left;
+   padding: 50px 0px;
+margin-left: 50px;
+   width: 90%;
+     
+}
+.team{
+   display: flex;
+   justify-content: space-around;
+   padding: 40px 0px;
+   background-color: darkgray;
+  
+}
+
+.parenteam{
+   border: 2px  solid gray;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 30%;
+   background-color: white;
+}
+
+.parenteam h4{
+   color: red;
+   text-align: left;
+   font-style: italic;
+}
+
+
+.parenteam p{
+   color: blue;
+   padding-left: 12px;
+   font-style: italic;
+
+}
+.parenteam button{
+ padding: 10px 18px;
+ cursor: pointer;
+ background-color: pink;
+ border: none;
+ margin-bottom: 20px;
+ margin-top: 15px;
+ border-radius: 6px;
+}
+
+.contactform{
+   padding: 50px 0px;
+   display: flex;
+   background-color:rgba(0, 128, 0, 0.185)
+  
+
+}
+
+.inputss{
+   display: flex;
+   flex-direction: column;
+   margin-top: 50px;
+}
+
+.inputss input{
+ margin-bottom: 20px;
+ padding: 9px 10px;
+ background-color: cornsilk;
+ border-radius: 7px;
+}
+
+.inputss button{
+   width: 100%;
+   padding: 10px 0px;
+   border: none;
+   background-color: red;
+   color: wheat;
+   border-radius: 30px;
+   cursor: pointer;
+}
